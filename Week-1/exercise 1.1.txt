@@ -1,0 +1,48 @@
+1. What is a protocol stack, and how is it used in web development?
+
+Ans. - A protocol stack refers to a group of protocols that are runnning concurrently that are employed for the implementation of network protocol suite.
+The protocols in a stack determine the interconnectivity rules for a layered network model such as in the OSI or TCP/IP models. To become a stack the protocols must be interoperable being able to connect both vertically between the layers of the network and horizontally between the end-points of each transmission segment.
+There are many protocols that power the Internet. Each protocol operates at a different layer, building functionality on top of the layer below it.
+The protocol stack is used to allow the combination of different protocols that each set the boundaries for a number of network activities.
+Historically, only networks that complied with certain technologies could communicate. This became more and more prevalent as the users and owners of systems increasingly wanted to be able to share data.
+Sharing data over any network means that both ends must agree on how the data is to be sent. Regardless of the type of communication, whether it is a packet switched digital network or an old-style 1200 baud modem; they can only communicate with equipment that follows the same protocol at each end of the network. Multi layered networks split the components down into layers so that the data is not affected by the mode of transmission, the mode of transmission is not affected by the hardware, the hardware is not affected by the synchronicity of the equipment. These functions are all separated into separate 'layers' of data that all require a protocol to be transferred. So the transport layer for example, responsible for the physical transfer of data, will have a range of protocols which can be used to communicate the data. The Data Link layer has other protocols associated with its data type and is responsible for the addressing of data from the other layers.
+These different protocols cannot be combined because that could create sets of rules that are too complex to carry out and incompatible in function. Having different protocols in the different layers of a network is a solution but an essential part of this is to be able to communicate with each other to enable an overall function to take place (i.e. a transfer of data across a network). When protocols are able to interact in such a way so in a combined activity, such as in TCP/IP and the OSI model, they are called a protocol stack.
+
+
+ 
+
+
+
+2. What are the different types of web servers, and how do they differ in terms of functionality and performance?
+
+Ans. - Web server is a program which processes the network requests of the users and serves them with files that create web pages. This exchange takes place using Hypertext Transfer Protocol (HTTP).
+Basically, web servers are computers used to store HTTP files which makes a website and when a client requests a certain website, it delivers the requested website to the client. For example, you want to open Facebook on your laptop and enter the URL in the search bar of google. Now, the laptop will send an HTTP request to view the facebook webpage to another computer known as the webserver. This computer (webserver) contains all the files (usually in HTTP format) which make up the website like text, images, gif files, etc. After processing the request, the webserver will send the requested website-related files to your computer and then you can reach the website.
+Different websites can be stored on the same or different web servers but that doesn’t affect the actual website that you are seeing in your computer. The web server can be any software or hardware but is usually a software running on a computer. One web server can handle multiple users at any given time which is a necessity otherwise there had to be a web server for each user and considering the current world population, is nearly close to impossible. A web server is never disconnected from the internet because if it was, then it won’t be able to receive any requests, and therefore cannot process them.
+There are many web servers available in the market both free and paid. Some of them are : Apache HTTP server, Microsoft Internet Information Services (IIS), Lighttpd, Jigsaw Server, Sun Java System.
+
+
+3. What is web hosting, and what are the different types of hosting services available for websites?
+
+Ans. - Web Hosting is a service that allows hosting/post-web-server applications( website or web page ) on a computer system through which web-browser clients can have easy access to electronic content on the Internet.
+Web Server or Web Host is a computer system that provide web hosting. When Internet user’s want to view your website, all they need to do is type your website address or domain into their browser. The user’s computer will then connect to your server and your web pages will be delivered to them through the browser. Basically, the web hosts allow the customers to place documents, such as HTML pages, graphics, and other multimedia files, etc. onto a special type of computer called a web server. It provides a constant and high-speed connection to the backbone of the Internet.
+Different types of Web hosting services are listed below:
+
+Free Hosting
+Virtual or Shared Hosting
+Dedicated Hosting
+Co-location Hosting
+
+4. What is scaling, and why is it important for web applications? How does scaling differ for vertical and horizontal scaling?
+
+Ans. - The scalability of an application can be measured by the number of requests it can effectively support simultaneously. The point at which an application can no longer handle additional requests effectively is the limit of its scalability. This limit is reached when a critical hardware resource runs out, requiring different or more machines. Scaling these resources can include any combination of adjustments to CPU and physical memory (different or more machines), hard disk (bigger hard drives, less “live” data, solid state drives), and/or the network bandwidth (multiple network interface controllers, bigger NICs, fiber, etc.).
+Scaling horizontally and scaling vertically are similar in that they both involve adding computing resources to your infrastructure. There are distinct differences between the two in terms of implementation and performance.
+
+Horizontal scaling means scaling by adding more machines to your pool of resources (also described as “scaling out”), whereas vertical scaling refers to scaling by adding more power (e.g. CPU, RAM) to an existing machine (also described as “scaling up”).
+One of the fundamental differences between the two is that horizontal scaling requires breaking a sequential piece of logic into smaller pieces so that they can be executed in parallel across multiple machines. In many respects, vertical scaling is easier because the logic really doesn’t need to change. Rather, you’re just running the same code on higher-spec machines. However, there are many other factors to consider when determining the appropriate approach.
+
+5. What is SEO (Search Engine Optimization), and how can web developers optimize their websites for better search engine rankings?
+
+Ans. - SEO, or Search Engine Optimization, is the practice of improving a website's visibility and ranking on search engine results pages (SERPs). It involves optimizing various aspects of a website to make it more relevant and accessible to search engines, ultimately increasing organic (non-paid) traffic from search engines.
+Web developers can employ several strategies to optimize their websites for better search engine rankings. Here are some key areas to focus on:
+Keyword research, On-page optimization, Quality content, Mobile-friendly design, Website speed and performance, Technical optimization, User experience, etc.
+SEO is an ongoing process, and it takes time to see significant results. It requires continuous monitoring, adaptation to search engine algorithm changes, and staying up to date with industry best practices.
