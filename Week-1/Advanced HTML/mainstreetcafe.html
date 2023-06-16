@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main street cafe</title>
+    <style>
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        li{
+            float: left;
+        }
+        li a{
+            display: block;
+            padding: 8px;
+        }
+
+        .star-rating {
+          font-size: 30px;
+        }
+      
+        .star {
+          display: inline-block;
+          color: gold;
+        }
+      
+        .half {
+          position: relative;
+          display: inline-block;
+          overflow: hidden;
+          color: gold;
+        }
+      
+        .half:before {
+          content: "\2605";
+          position: absolute;
+          width: 50%;
+          
+        }
+      
+        .empty {
+          color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Restaurant Reviews
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="RestaurantReviewshomepage.html">Home</a></li>
+                <li><a href="Add Review Page.html">Add Review</a></li>
+                <li><a href="AboutPage.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Main Street Cafe</h1>
+        <img src="main street cafe.jpeg" alt="main street cafe">
+        <div class="rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star half">&#9733;</span>
+        </div>
+        <div class="overview">
+            <h2>Overview</h2>
+            <p>
+                Cuisine: American, Grill, Gluten Free Options
+                Price: $ - $$
+                Featuring a wide variety of food including burgers, chicken, sandwiches and soup.
+            </p>
+        </div>
+        <div class="reviews">
+            <h2>Reviews</h2>
+            <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+            </div>
+            <p>
+                Terry: The food was excellent although the wait was terribly long.
+            </p>
+            <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+            </div>
+            <p>
+                Julio: My favourite place to eat in Anytown! The Super Deluxe Burger is mouth watering!
+            </p>
+            <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star half">&#9733;</span>
+            </div>
+            <p>
+                Avery: Everything on the menu is delicious, and the prices aren't bad.
+            </p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2022 Restaurant Reviews</p>
+    </footer>
+</body>
+</html>

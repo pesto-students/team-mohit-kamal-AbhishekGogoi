@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Review Page</title>
+    <style>
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        li{
+            float: left;
+        }
+        li a{
+            display: block;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Restaurant Reviews
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="RestaurantReviewshomepage.html">Home</a></li>
+                <li><a href="Add Review Page.html">Add Review</a></li>
+                <li><a href="AboutPage.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>
+            Add Review
+        </h2>
+        <div class="form-review">
+            <form>
+                <div>
+                    <label for="name">Name?</label>
+                    <input type="text" id="name" name="name"/>
+                </div>
+                <div>
+                    <label for="dropdown">Restaurant?</label>
+                    <select id="dropdown">
+                        <option value="option1">Option1</option>
+                        <option value="option2">Option2</option>
+                        <option value="option3">Option3</option>
+                        <option value="option4">Option4</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="date">Date of visit?</label>
+                    <input type="date" id="date" name="date">
+                </div>   
+                <div>
+                    <label for="rating">Rating?</label>
+                    <input type="number" id="rating" name="rating" min="0" max="10" value="0">
+                </div>
+                <div>
+                    <label for="details">Details?</label>
+                    <textarea id="details" name="details" rows="3" cols="50"></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2022 Restaurant Reviews</p>
+    </footer>
+</body>
+</html>
