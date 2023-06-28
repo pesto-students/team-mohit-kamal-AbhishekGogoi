@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restaurant reviews home page</title>
+    <style>
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        li{
+            float: left;
+        }
+        li a{
+            display: block;
+            padding: 8px;
+        }
+
+        .star-rating {
+          font-size: 30px;
+        }
+      
+        .star {
+          display: inline-block;
+          color: gold;
+        }
+      
+        .half {
+          position: relative;
+          display: inline-block;
+          overflow: hidden;
+          color: gold;
+        }
+      
+        .half:before {
+          content: "\2605";
+          position: absolute;
+          width: 50%;
+          
+        }
+      
+        .empty {
+          color: #ccc;
+        }
+      </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Restaurant Reviews
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="RestaurantReviewshomepage.html">Home</a></li>
+                <li><a href="Add Review Page.html">Add Review</a></li>
+                <li><a href="AboutPage.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>
+            <a href="mainstreetcafe.html"><u>Main Street Cafe</u></a>
+        </h2>
+        <img src="main street cafe.jpeg" alt="main street cafe">
+        <div class="rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star half">&#9733;</span>
+        </div>
+        <div class="restaurant">
+            <p>Featuring a wide variety of food including burgers, chicken and sandwiches.</p>
+        </div>
+    </section>
+    <section>
+        <h2>
+           <a href="greekhouse.html"><u>Greek House</u></a>
+        </h2>
+        <img src="greekhouse.jpeg" alt="greekhouse">
+        <div class="rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+        </div>
+        <div class="restaurant">
+            <p>Greek food at it's best in a charming setting</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2022 Restaurant Reviews</p>
+    </footer>
+</body>
+</html>
